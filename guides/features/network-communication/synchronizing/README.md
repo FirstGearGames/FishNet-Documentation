@@ -1,38 +1,21 @@
----
-layout:
-  width: default
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
----
-
 # SyncTypes
 
 Like[ remote procedure calls](../remote-procedure-calls.md), **SyncTypes** are another type of [communication](../../../high-level-overview/terminology/communicating.md). These are fields which automatically synchronize over the network to clients when the server changes them. There are a variety of **SyncTypes** available: [SyncVar](syncvar.md), [SyncDictionary](syncdictionary.md), [SyncList](synclist.md), [custom SyncTypes](custom-synctype.md), and more.
 
 When changes are made to a SyncType, only the changes are sent. For example, if you have a SyncList of 10 values and add another, only the just added entry will be sent.
 
+Any changes made to SyncTypes in Awake will be performed on server and client without requiring synchronization. This is a great opportunity to add to lists or dictionaries. If you wish values to be synchronized after initializing use OnStartServer.
+
 {% hint style="warning" %}
 SyncVar Values will be reset before `OnDestroy` runs on the object, so you won't be able to get them in that method.
 {% endhint %}
 
+By altering the **SendRate,** you can slow down how often SyncTypes can at most often sync their changes. This can be useful if you make several changes in quick succession and only want the latest change to be sent every couple of seconds for example. The values are per second, and setting a SendRate of `0f` will allow SyncTypes to send changes as often as possible, which is every network tick if your game is running on a [non-variable timing mode](../../../../fishnet-building-blocks/components/managers/time-manager.md#timing-type).&#x20;
+
 SyncTypes will also [automatically generate serializers](../../data-serialization/) for custom types.
 
 {% hint style="info" %}
-Any changes made to SyncTypes in Awake will be performed on server and client without requiring synchronization. This is a great opportunity to add to lists or dictionaries. If you wish values to be synchronized after initializing use OnStartServer.
-{% endhint %}
-
-{% hint style="info" %}
-Setting a SendRate of 0f will allow SyncTypes to send changes every network tick.
+When SyncTypes are set to use reliable messaging (the default), their changes will arrive on clients in the reverse order that they are defined inside the script. This is due to the way the code generation works.
 {% endhint %}
 
 ## Host client limitations

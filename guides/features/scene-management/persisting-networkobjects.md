@@ -8,7 +8,7 @@ description: >-
 
 ## General
 
-The options available to users to keep [**NetworkObjects**](../../../manual/guides/scene-management/broken-reference/) persisting across scenes depends on the type of NetworkObject.
+The options available to users to keep [**NetworkObjects**](../networked-gameobjects-and-scripts/networkobjects/) persisting across scenes depends on the type of NetworkObject.
 
 ## Spawned NetworkObjects
 

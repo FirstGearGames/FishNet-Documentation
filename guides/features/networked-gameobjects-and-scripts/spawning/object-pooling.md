@@ -36,7 +36,7 @@ By default the object pool is enabled, but your network objects will only use th
 
 ### Default despawn behavior
 
-On the [NetworkObject](../../../../manual/guides/spawning/broken-reference/) component you can set what the default despawn behavior is for the object where the script is placed.\
+On the [NetworkObject](../../../../fishnet-building-blocks/components/network-object.md) component you can set what the default despawn behavior is for the object where the script is placed.\
 \
 This setting is set to "Destroy" by default, so make sure to switch this over to "Pool" if you want Fish-Networking to automatically use the default object pool.
 

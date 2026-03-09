@@ -248,7 +248,7 @@ Reconcile methods must also now include a Channel parameter as shown.
 private void MyReconcile(ReconcileData rd, bool asServer, Channel channel = Channel.Unreliable)
 ```
 
-For more detailed instructions on these changes see the [prediction guide](../../manual/general/changelog/broken-reference/).
+For more detailed instructions on these changes see the [prediction guide](../features/prediction/).
 
 **TimeManager Fields and Events**
 

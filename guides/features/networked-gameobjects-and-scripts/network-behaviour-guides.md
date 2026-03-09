@@ -6,7 +6,7 @@ description: >-
 
 # NetworkBehaviour
 
-When inheriting from [NetworkBehaviours ](../../../fishnet-building-blocks/components/network-behaviour-components.md)you are indicating that your script will utilize the network in some way. Once a NetworkBehaviour script is added to an object the [NetworkObject](../../../manual/guides/broken-reference/) component will automatically be attached.
+When inheriting from [NetworkBehaviours ](../../../fishnet-building-blocks/components/network-behaviour-components.md)you are indicating that your script will utilize the network in some way. Once a NetworkBehaviour script is added to an object the [NetworkObject](../../../fishnet-building-blocks/components/network-object.md) component will automatically be attached.
 
 NetworkBehaviours are essential for [Remote Procedure Calls](../network-communication/remote-procedure-calls.md), [Synchronizing](../network-communication/synchronizing/), and having access to vital network information.
 

@@ -8,9 +8,9 @@ description: >-
 
 ## NetworkObject
 
-Any GameObject with a [**NetworkObject**](../../../../manual/guides/broken-reference/) component on it will be considered a "NetworkObject" in these guides going forward.\
+Any GameObject with a [**NetworkObject**](../../../../fishnet-building-blocks/components/network-object.md) component on it will be considered a "NetworkObject" in these guides going forward.\
 \
-Review the [**NetworkObject**](../../../../manual/guides/broken-reference/) component Page for details on the various settings for a **NetworkObject.**
+Review the [**NetworkObject**](../../../../fishnet-building-blocks/components/network-object.md) component Page for details on the various settings for a **NetworkObject.**
 
 When you are to add a [**NetworkBehaviour**](../../../../fishnet-building-blocks/components/network-behaviour-components.md) component to your prefabs or scene objects the NetworkBehaviour will search for a NetworkObject component on the same object, or within parent objects. If a NetworkObject is not found then one will be added automatically to the top-most object.
 
@@ -24,7 +24,7 @@ NetworkObjects that are Instantiated and Spawned using ther ServerManager.Spawn(
 
 Any **NetworkObject** that exists as part of the Scene aka - never instantiated/spawned into the scene, will be considered a "**Scene NetworkObject**" in these guides going forward.\
 \
-"IsSceneObject" property will be marked true on the attached [**NetworkObject**](../../../../manual/guides/broken-reference/) component internally.
+"IsSceneObject" property will be marked true on the attached [**NetworkObject**](../../../../fishnet-building-blocks/components/network-object.md) component internally.
 
 ## Global NetworkObject
 
@@ -38,6 +38,6 @@ Scene objects cannot be marked as global. All global objects must be instantiate
 
 ## Nested NetworkObject
 
-Any [**NetworkObject**](../../../../manual/guides/broken-reference/) that are a child of another [**NetworkObject**](../../../../manual/guides/broken-reference/) will considered a "**Nested NetworkObject**" in these guides going forward.\
+Any [**NetworkObject**](../../../../fishnet-building-blocks/components/network-object.md) that are a child of another [**NetworkObject**](../../../../fishnet-building-blocks/components/network-object.md) will considered a "**Nested NetworkObject**" in these guides going forward.\
 \
-"IsNested" property will be marked true on the attached [**NetworkObject**](../../../../manual/guides/broken-reference/) component internally.
+"IsNested" property will be marked true on the attached [**NetworkObject**](../../../../fishnet-building-blocks/components/network-object.md) component internally.

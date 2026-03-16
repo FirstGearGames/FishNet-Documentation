@@ -1,7 +1,7 @@
 # Features
 
 {% hint style="warning" %}
-For a more exact feature comparison of various networking solutions please see this [comparison chart](https://docs.google.com/spreadsheets/d/1Bj5uLdnxZYlJykBg3Qd9BNOtvE8sp1ZQ4EgX1sI0RFA/edit#gid=233715429).
+For a more exact feature comparison of various networking solutions please see this [comparison chart](https://docs.google.com/spreadsheets/d/1Bj5uLdnxZYlJykBg3Qd9BNOtvE8sp1ZQ4EgX1sI0RFA/).
 {% endhint %}
 
 Performance and reliability are very important to us, but so is including great features to make your experience easier, and better. The last thing we want to do is create limitations; we support all features Mirror does, and then some.

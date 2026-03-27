@@ -12,7 +12,7 @@ Below is a comparison of unique and enhanced features, with more to come.
 
 > **Update Stability**
 >
-> Other solutions do not guarantee that their API will not change between releases, making it difficult and dangerous to update for fixes or features. Fish-Networking prides itself on it's [No-Break Promise](../../../#no-break-promise), ensuring updates do not require alteration of user code, keeping you on-top with the best to offer.
+> Other solutions do not guarantee that their API will not change between releases, making it difficult and dangerous to update for fixes or features. Fish-Networking prides itself on its [No-Break Promise](../../../#no-break-promise), ensuring updates do not require alteration of user code, keeping you on-top with the best to offer.
 
 > **Built-in Addressables Support**
 >
@@ -24,7 +24,7 @@ Below is a comparison of unique and enhanced features, with more to come.
 
 > **Local Remote Calls**
 >
-> Fish-Networking allows remote calls to run not only on their intended destination, but also on the caller as well. Typically you would have to copy logic into multiple methods to accomplish such a task, but Fish-Networking allows it to be done in one method. This drastically reduces potential errors in code, lines of code, and improves ease of use.
+> Fish-Networking allows remote calls to run not only on their intended destination, but also on the caller as well. Typically, you would have to copy logic into multiple methods to accomplish such a task, but Fish-Networking allows it to be done in one method. This drastically reduces potential errors in code, lines of code, and improves ease of use.
 
 > **Multi-purpose Remote Calls**
 >
@@ -38,15 +38,19 @@ Below is a comparison of unique and enhanced features, with more to come.
 >
 > Client-side prediction primarily focuses on ensuring players in your game cannot cheat a variety of movement types. This feature is an absolute must for any competitive game.
 >
-> Fish-Networking is the only free solution to provide built-in client-side prediction with only a few lines of code. Also, included are a variety of components for desynhronization smoothing, and rigidbody prediction.
+> Fish-Networking is the only free solution to provide built-in client-side prediction with only a few lines of code. Also, included are a variety of components for desynchronization smoothing, and rigidbody prediction.
 
 > **Lag Compensation (pro feature)**
 >
-> Another very important feature for precision based gaming is lag compensation. This is the act of rolling back colliders in time to where a client had seen them; this ensures accurate hit registration. This technique is applicable to several genre types but is most commonly seen in shooter games.
+> Another very important feature for precision-based gaming is lag compensation. This is the act of rolling back colliders in time to where a client had seen them; this ensures accurate hit registration. This technique is applicable to several genre types but is most commonly seen in shooter games.
 
 > **Automatic Code Stripping (pro feature)**
 >
 > Code stripping helps protect your game server by removing sensitive logic that the player should not be aware of.
+
+> **Network Level of Detail (pro feature)**
+>
+> Optimize your game's networking footprint with the intelligent LOD system. This feature scales the frequency of data synchronization based on an object's distance from the player. By throttling updates for distant entities while maintaining high-fidelity precision for nearby interactions, you can significantly reduce server bandwidth and improve client-side CPU performance without sacrificing gameplay quality.
 
 > **Large Packet Handling**
 >

@@ -47,6 +47,10 @@ Check out the API page for more specific methods, properties, and events [here](
 > This is the default behavior when despawning the object. Objects are typically destroyed when despawned, but this can be set to other values, such as _Pool_, to save performance.
 >
 > Check out the [object-pooling.md](../../guides/features/networked-gameobjects-and-scripts/spawning/object-pooling.md "mention")guide for more information.
+
+:gear: **Use Level of Detail**
+
+> This can enable the use of [Level of Detail](../../guides/features/level-of-detail.md) on this NetworkObject. The LOD system must be enabled on the [ObserverManager](managers/observermanager/) for this to work.
 {% endtab %}
 
 {% tab title="Prediction" %}

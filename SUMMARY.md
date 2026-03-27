@@ -134,6 +134,8 @@
     * [Raycast](guides/features/lag-compensation/raycast.md)
     * [Projectiles](guides/features/lag-compensation/projectiles.md)
   * [Code Stripping (Pro Feature)](guides/features/code-stripping.md)
+  * [Level of Detail (Pro Feature)](guides/features/level-of-detail.md)
+* [Demos](guides/demos.md)
 * [Updating FishNet](guides/updating-fishnet/README.md)
   * [Changes in API](guides/updating-fishnet/upgrading-api.md)
   * [Upgrading to FishNet Pro](guides/updating-fishnet/upgrading-to-fishnet-pro.md)

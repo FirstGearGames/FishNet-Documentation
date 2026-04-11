@@ -23,6 +23,8 @@ We have an extremely flexible sharing license for Fish-Networking Pro, allowing 
 >
 > Another very important feature for precision-based gaming is [lag compensation](../../fishnet-building-blocks/components/colliderrollback.md). This is the act of rolling back colliders in time to where a client had seen them; this ensures accurate hit registration. This technique is applicable to several genre types but is most commonly seen in shooter games
 
+> [Level of Detail](../../guides/features/level-of-detail.md) optimizes network traffic and client-side performance by dynamically adjusting data synchronization frequency. By scaling updates according to their distance from the viewing client, the system ensures precise interactions nearby while minimizing resource usage for distant objects.
+
 > **Automatic Code Stripping**
 >
 > [Code stripping](../../guides/features/code-stripping.md) helps protect your game server by removing sensitive logic that the player should not be aware of. Far as we know, Fish-Networking is the only solution with the ability to remove server code from clients, and client code from the server.
@@ -41,13 +43,13 @@ We have an extremely flexible sharing license for Fish-Networking Pro, allowing 
 
 ## Paid projects
 
-Projects are completed Unity projects which act as a template or learning opportunity.
+Projects are completed Unity projects which act as a template or learning opportunity. These are separate from FishNet Pro.
 
-> **Lobby and Worlds**
+> #### **Lobby and Worlds**
 >
 > Lobby and Worlds is designed to use a single server for a lobby containing your players, as well create games on the same server using rooms created by your players. Each room is isolated from other players, both visually and in network traffic.
 >
-> Many aspects of the lobby can be customized to your needs. Lobby and Worlds allows you to design your game normally in it's own scenes, while the project takes care of everything else.
+> Many aspects of the lobby can be customized to your needs. Lobby and Worlds allows you to design your game normally in its own scenes, while the project takes care of everything else.
 >
 > Features include:
 >
@@ -61,29 +63,29 @@ Projects are completed Unity projects which act as a template or learning opport
 > * Player limits.
 > * Customizable lobby logic and demo game.
 
-{% hint style="warning" %}
-FPS Land is not yet available for Fish-Networking V4. We are in the process of rewriting FPS Land to better take advantage of newer FishNet features.
-
-Upon release, FPS Land V4 will be available to anyone that joined Pro tier from January 31st 2024 and onward, even if you are not currently a Pro subscriber.
-{% endhint %}
-
-{% hint style="info" %}
-FPS Land for Fish-Networking V3 is still available for download.
-{% endhint %}
-
-> **FPS Land**
+> #### **FPS Land**
 >
-> This project is a full server authoritative demo on how you may get started on creating a FPS game with Fish-Networking.
+> This project is a full server authoritative demo on how you may get started on creating an FPS game with Fish-Networking.
 >
 > Key points are:
 >
-> * Full server authoritative: movement, sound, firing, reloading, animations, ect.
+> * Full server authoritative: movement, sound, firing, reloading, animations, etc.
 > * Four weapon types: rifle, pistol, knife, and grenades.
 > * Lag compensation for weapons such as rifles.
 > * Lag compensation projectiles, such as grenades.
 > * Picked up items.
 > * Movement modifiers from weapon weight and walking.
 > * Pet friendly goats.
+
+{% hint style="warning" %}
+FPS Land is not yet available for Fish-Networking V4. We are in the process of rewriting FPS Land to better take advantage of newer FishNet features.
+
+Upon release, FPS Land V4 will be available to anyone that joined Pro tier from January 31st, 2024, and onward, even if you are not currently a Pro subscriber.
+{% endhint %}
+
+{% hint style="info" %}
+FPS Land for Fish-Networking V3 is still available for download.
+{% endhint %}
 
 ## Support tier options
 
@@ -112,8 +114,8 @@ All business [support tiers](pro-projects-and-support.md#support-tier-options) a
 
 There are a variety of ways to purchase Pro and Projects.
 
-{% hint style="danger" %}
-Please read the following very carefully to ensure you understand it fully. If you have questions please contact staff on [Discord](https://discord.gg/Ta9HgDh4Hj).
+{% hint style="danger" icon="eye" %}
+Please read the following very carefully to ensure you understand it fully. If you have questions, please contact staff on [Discord](https://discord.gg/Ta9HgDh4Hj).
 {% endhint %}
 
 There are two types of purchases, **Fish-Networking Pro**, and **Projects**.
@@ -179,7 +181,7 @@ The amount of months received are directly related to what goes back into the pr
 Please be certain you read [Purchasing](pro-projects-and-support.md#purchasing) thoroughly.
 {% endhint %}
 
-If you purchased through GitHub or Patreon your downloads will be available on our [website](https://fish-networking.com).
+If you purchased Fish-Networking Pro or the Paid projects through GitHub or Patreon your downloads will be available on our [website](https://fish-networking.com). Head over to the **Account** page, login with either GitHub or Patreon (depending on which you used), and then scroll down to find your available downloads.
 
 If you purchased Fish-Networking Pro on the asset store, please use the asset store to download Fish-Networking Pro.
 
@@ -191,15 +193,15 @@ Do not forget your Discord roles!
 
 You can claim supporter roles on our Discord no matter what purchase technique you use, but as previously said GitHub offers the most benefits per dollar.
 
-Roles show off that you're a supporter, and are crucial for gaining you access to our priority help channels if you're on a Priority Support tier.
+Roles show off that you're a supporter and are crucial for gaining you access to our priority help channels if you're on a Priority Support tier.
 
 Business tiers are unique in that they receive dedicated channels. Please contact FirstGearGames on Discord to have your support channel created.
 
 **How to claim your role:**
 
-* **GitHub Instructions:** log into your downloads on our website. After logging in you will be shown a temporary Id above downloads. Copy this Id and direct message our Discord bot Sharky with it.
+* **GitHub Instructions:** log into your account on our website. After logging in you, will be shown a temporary ID Token in the **Discord Roles** section. Copy this Token and direct message our Discord bot **Sharky** with it.
 * **Patreon Instructions:** [**https://support.patreon.com/hc/en-us/articles/212052266-Getting-Discord-access**](https://support.patreon.com/hc/en-us/articles/212052266-Getting-Discord-access)
-* **Asset Store Instructions:** Join our Discord and message Sharky your purchase invoice number.
+* **Asset Store Instructions:** Join our Discord and message our Discord bot, **Sharky**, with your purchase invoice number.
 
 ## More information
 

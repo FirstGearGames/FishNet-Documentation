@@ -2,7 +2,7 @@
 
 ## General
 
-FishySteamworks is FizzySteamworks reformed. FishySteamworks has significant performance improvements and has been made to fully support [Toolkit for Steamworks SDK](https://kb.heathen.group/toolkit-for-steamworks-sdk/steamworks) by _Heathen Engineering._
+FishySteamworks is FizzySteamworks reformed. FishySteamworks has significant performance improvements and has been made to fully support [Foundation for Steamworks](https://heathen.group/kb/steam-welcome/) by _Heathen Engineering._
 
 ***
 

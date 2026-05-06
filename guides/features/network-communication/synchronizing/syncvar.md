@@ -22,7 +22,7 @@ SyncTypes can also be customized with additional options by using the UpdateSett
 Below is a demonstration on sending SyncTypes at a longer interval of at most every 1f, and being notified of when the value changes.
 
 ```csharp
-private readonly SyncVar<float> _health = new SyncVar<float>(new SyncTypeSettings(1f);
+private readonly SyncVar<float> _health = new SyncVar<float>(new SyncTypeSettings(1f));
     
 private void Awake()
 {

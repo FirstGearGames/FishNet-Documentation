@@ -78,7 +78,7 @@ A large variety of third party services allow you to host p2p games. Steam and E
 
 When trying to connect to your IP directly you must allow connections through your firewall. Be sure to adjust your firewall to allow the port used by your game.
 
-You can also join/create LAN games without changing your firewall by using our [Fish-Networking Discovery addon](../../overview/asset-integrations/fish-network-discovery.md).
+To help you find and join LAN games, you can use one of the Network Discovery addons [Fish-Networking Discovery](https://github.com/abdelfattahradwan/Fish-Networking-Discovery) or [Unity Network Discovery](https://github.com/FrantisekHolubec/UnityNetworkDiscovery).
 
 </details>
 

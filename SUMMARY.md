@@ -17,8 +17,7 @@
   * [Legal Restrictions](overview/readme/legal-restrictions.md)
 * [Showcase](overview/showcase/README.md)
   * [Upcoming Releases](overview/showcase/upcoming-releases.md)
-* [Asset Integrations](overview/asset-integrations/README.md)
-  * [Fish-Network-Discovery](overview/asset-integrations/fish-network-discovery.md)
+* [Asset Integrations](overview/asset-integrations.md)
 * [Community Resources](overview/community-resources.md)
 
 ## Tutorials

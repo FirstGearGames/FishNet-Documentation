@@ -1,23 +1,6 @@
 ---
 cover: .gitbook/assets/fishnet-cover.png
 coverY: 0
-layout:
-  width: default
-  cover:
-    visible: true
-    size: full
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
 ---
 
 # What Is FishNet?
@@ -56,7 +39,7 @@ To toggle between beta features simply use the Fish-Networking menu in engine, c
 
 There are many third-party add-ons, integrations, and resources that can aid you through your development. Many assets also have direct support for FishNet and work well together with it.
 
-<a href="overview/asset-integrations/" class="button primary">Asset Integrations</a> <a href="overview/community-resources.md" class="button primary">Community Resources</a>
+<a href="overview/asset-integrations.md" class="button primary">Asset Integrations</a> <a href="overview/community-resources.md" class="button primary">Community Resources</a>
 
 ## Contributing documentation
 

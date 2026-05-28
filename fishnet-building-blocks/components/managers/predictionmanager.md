@@ -16,7 +16,7 @@ Check out its API page for more specific methods and events [here](https://fish-
 
 ## Settings <a href="#server-and-host" id="server-and-host"></a>
 
-<div align="left"><figure><img src="../../../.gitbook/assets/prediction-manager-component (1).png" alt=""><figcaption><p>Default settings</p></figcaption></figure></div>
+<div align="left"><figure><img src="../../../.gitbook/assets/prediction-manager-component.png" alt=""><figcaption><p>Default settings</p></figcaption></figure></div>
 
 ### :gear: Create Local States
 

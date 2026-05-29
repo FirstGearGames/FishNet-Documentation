@@ -19,7 +19,7 @@ Github: [https://github.com/FirstGearGames/FishySteamworks/](https://github.com/
 Import the package from Github above into your Unity FishNet project, and add the "FishySteamworks" Component to your [Transport Manager.](../components/managers/transportmanager/)
 
 {% hint style="warning" %}
-_FishySteamworks is dependent upon_ [Steamworks.NET](https://steamworks.github.io/). An [installation article](https://kb.heathenengineering.com/assets/steamworks/installation) for Steamworks.NET has kindly been provided by _Heathen Engineerin&#x67;**.**_
+_FishySteamworks is dependent upon_ [Steamworks.NET](https://steamworks.github.io/). This tutorial may help with installing it. https://www.youtube.com/watch?v=hXZmUCkGZP8
 {% endhint %}
 
 ***

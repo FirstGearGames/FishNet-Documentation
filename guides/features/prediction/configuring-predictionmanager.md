@@ -8,7 +8,7 @@ description: >-
 
 You do not necessarily even need to add it to your NetworkManager object, but doing so does offer you to alter default settings.
 
-<figure><img src="../../../.gitbook/assets/prediction-manager-component (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/prediction-manager-component.png" alt=""><figcaption></figcaption></figure>
 
 ## Interpolation
 

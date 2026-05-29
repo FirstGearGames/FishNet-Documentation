@@ -70,7 +70,7 @@ Relay servers:
 * May be used as a fallback or for web-based games
 
 {% hint style="success" %}
-Fish-Networking supports multiple third-party relay services including [Unity's Relay](https://unity.com/products/relay), [Edgegap's Distributed Relay](https://edgegap.com/platform/distributed-relay), [Photon Realtime](https://www.photonengine.com/Realtime), [Epic Online Services' Relay Service](https://dev.epicgames.com/docs/epic-online-services/eos-overview#peer-to-peer-p2p-connections), and [Steam Datagram Relay](https://partner.steamgames.com/doc/features/multiplayer/steamdatagramrelay).
+Fish-Networking supports multiple third-party relay services including [Unity's Relay](https://docs.unity.com/en-us/relay/get-started), [Edgegap's Distributed Relay](https://edgegap.com/platform/distributed-relay), [Photon Realtime](https://www.photonengine.com/Realtime), [Epic Online Services' Relay Service](https://dev.epicgames.com/docs/epic-online-services/eos-overview#peer-to-peer-p2p-connections), and [Steam Datagram Relay](https://partner.steamgames.com/doc/features/multiplayer/steamdatagramrelay).
 {% endhint %}
 
 ***

@@ -71,7 +71,7 @@ This example script uses FishNet's instance registering to handle the singleton 
 {% step %}
 ### Creating a custom scene processor
 
-Now let's create a script that will inherit from FishNet's [DefaultSceneProcessor](https://fish-networking.com/FishNet/api/api/FishNet.Managing.Scened.DefaultSceneProcessor.html) and add our extra functionality when loading a scene. After inheriting from **DefaultSceneProcessor**, simply override the [LoadStart](https://app.gitbook.com/u/YSfkj2zWPbbIfmfInyrs7Ysa2DV2) and [LoadEnd](https://app.gitbook.com/u/YSfkj2zWPbbIfmfInyrs7Ysa2DV2) methods, call the base method to retain the default functionality and then tell our loading screen to be shown and hidden.&#x20;
+Now let's create a script that will inherit from FishNet's [DefaultSceneProcessor](https://fish-networking.com/FishNet/api/api/FishNet.Managing.Scened.DefaultSceneProcessor.html) and add our extra functionality when loading a scene. After inheriting from **DefaultSceneProcessor**, simply override the [LoadStart](https://fish-networking.com/FishNet/api/api/FishNet.Managing.Scened.DefaultSceneProcessor.html#FishNet_Managing_Scened_DefaultSceneProcessor_LoadStart_FishNet_Managing_Scened_LoadQueueData_) and [LoadEnd](https://fish-networking.com/FishNet/api/api/FishNet.Managing.Scened.DefaultSceneProcessor.html#FishNet_Managing_Scened_DefaultSceneProcessor_LoadEnd_FishNet_Managing_Scened_LoadQueueData_) methods, call the base method to retain the default functionality and then tell our loading screen to be shown and hidden.&#x20;
 
 {% code title="LoadingScreenSceneProcessor.cs" lineNumbers="true" %}
 ```csharp

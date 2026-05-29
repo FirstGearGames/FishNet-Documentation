@@ -4,7 +4,7 @@ description: Get your player objects moving around and synchronized!
 
 # Moving Your Player Around
 
-Now that your player object is properly spawned and prepared, it's time to get it moving. In this section, we'll implement a simple client-authoritative movement script and utilize FishNet's [NetworkTransform ](../../fishnet-building-blocks/components/network-transform.md)component to effortlessly synchronize that movement across all connected devices.
+Now that your player object is properly spawned and prepared, it's time to get it moving. In this section, we'll implement a simple client-authoritative movement script and utilize FishNet's [NetworkTransform](../../fishnet-building-blocks/components/network-transform.md) component to effortlessly synchronize that movement across all connected devices.
 
 #### Client-authoritative movement script
 
@@ -66,7 +66,7 @@ Since there will be multiple player game objects in the game, we need to determi
 {% endtab %}
 
 {% tab title="New Input System" %}
-If using [Unity's New Input System](https://learn.unity.com/tutorial/setting-up-the-input-system-u6?uv=6), you should add the **Player Input** component to your **Player Prefab** and be sure to **disable** it
+If using [Unity's New Input System](https://learn.unity.com/tutorial/6712ae08edbc2a05a71b5446?version=6.0), you should add the **Player Input** component to your **Player Prefab** and be sure to **disable** it
 
 <figure><img src="../../.gitbook/assets/player-input-component-disabled.png" alt=""><figcaption><p>The PlayerInput component added to the Player Prefab and Disabled</p></figcaption></figure>
 

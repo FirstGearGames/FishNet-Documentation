@@ -238,12 +238,3 @@ Arcadius Trailer
 
 {% embed url="https://store.steampowered.com/app/1105130/Arcadius/" %}
 
-***
-
-## Plethora
-
-Plethora is a MMO made with Fish-Networking, utilizing our built-in client-side prediction system. Within Plethora players can compete in hypercasual mini-games, with the potential to win valueable NTFs and minting rights from other NFT projects. Plethora offers bi-weekly competitions, leaderboards, and even daily quests for regular players.
-
-[https://plethora.game/](https://plethora.game/)
-
-![](../../.gitbook/assets/showcase-plethora.png)

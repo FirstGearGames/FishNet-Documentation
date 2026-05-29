@@ -8,7 +8,7 @@ description: >-
 
 ## General
 
-When unloading scenes information on what to unload is constructed within the SceneUnloadData class. SceneUnloadData is very similar to SceneLoadData. The API for SceneUnloadData can be found [here](https://fish-networking.com/FishNet/api/docs/FishNet.Managing.Scened.SceneUnloadData.html).
+When unloading scenes information on what to unload is constructed within the SceneUnloadData class. SceneUnloadData is very similar to SceneLoadData. The API for SceneUnloadData can be found [here](https://fish-networking.com/FishNet/api/api/FishNet.Managing.Scened.SceneUnloadData.html).
 
 ## Default values
 

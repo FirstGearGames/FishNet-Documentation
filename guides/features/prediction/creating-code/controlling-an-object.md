@@ -111,6 +111,10 @@ public override void OnStopNetwork()
 }
 ```
 
+{% hint style="info" %}
+Instead of needing to manually subscribe to the TimeManager events such as OnTick and OnPostTick you can have your class inherit from [TickNetworkBehaviour](../../../../fishnet-building-blocks/components/network-behaviour-components/ticknetworkbehaviour.md) and then use its override methods.
+{% endhint %}
+
 ## Calling prediction methods
 
 For our described demo, below is how you would gather input for your replicate and reconcile methods.
@@ -130,7 +134,7 @@ private void Update()
 
 OnTick will now be used to build our replicate data. A separate method of 'CreateReplicateData' is not needed to create the data but is done to organize our code better.
 
-When attempting to create the replicate data we return with default if not the owner of the object. Server receives and runs inputs from the owner so it does not need to create datas, and when clients do not own an object they will get the input for it from the server, as forwarded by other clients if using state forwarding. When not using state forwarding default should still be used in this scenario, but clients will not run replicates on non-owned objects. You can also run inputs on the server if there is no owner; using base.HasAuthority would probably be best for this. See [Checking Ownership](../../ownership/#checking-ownership) for more information.
+When attempting to create the replicate data we return with default if not the owner of the object. Server receives and runs inputs from the owner so it does not need to create data, and when clients do not own an object they will get the input for it from the server, as forwarded by other clients if using state forwarding. When not using state forwarding default should still be used in this scenario, but clients will not run replicates on non-owned objects. You can also run inputs on the server if there is no owner; using base.HasAuthority would probably be best for this. See [Checking Ownership](../../ownership/#checking-ownership) for more information.
 
 ```csharp
 private void TimeManager_OnTick()
@@ -239,4 +243,3 @@ transform.localPosition = reconcileData.Position;
 _characterController.enabled = true;
 ```
 {% endhint %}
-

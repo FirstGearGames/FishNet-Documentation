@@ -1,6 +1,6 @@
 # InstanceFinder
 
-There is a lot of useful information you can get from [NetworkBehaviours ](../../fishnet-building-blocks/components/network-behaviour-components.md)but there may be some cases that your script does not inherit from NetworkBehaviour. This is where InstanceFinder can help you out.
+There is a lot of useful information you can get from [NetworkBehaviours ](../../fishnet-building-blocks/components/network-behaviour-components/)but there may be some cases that your script does not inherit from NetworkBehaviour. This is where InstanceFinder can help you out.
 
 InstanceFinder provides you quick access to commonly needed references or information. Some examples are: [SceneManager](../../fishnet-building-blocks/components/managers/scenemanager.md), IsClientStarted, [TimeManager](../../fishnet-building-blocks/components/managers/time-manager.md), and [more](https://fish-networking.com/FishNet/api/api/FishNet.InstanceFinder.html#properties).
 

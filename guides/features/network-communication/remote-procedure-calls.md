@@ -6,7 +6,7 @@ description: >-
 
 # Remote Procedure Calls
 
-Remote Procedure Calls (RPCs) are a type of [communication](../../high-level-overview/terminology/communicating.md#server-and-host-2) that are received on the same object they are sent from. The three types of RPCs are ServerRpc, ObserversRpc, and TargetRpc. RPCs are easy to use and are just like calling another method. Since Remote Procedure Calls are object bound, they must be called on scripts which inherit from [NetworkBehaviour](../../../fishnet-building-blocks/components/network-behaviour-components.md).
+Remote Procedure Calls (RPCs) are a type of [communication](../../high-level-overview/terminology/communicating.md#server-and-host-2) that are received on the same object they are sent from. The three types of RPCs are ServerRpc, ObserversRpc, and TargetRpc. RPCs are easy to use and are just like calling another method. Since Remote Procedure Calls are object bound, they must be called on scripts which inherit from [NetworkBehaviour](../../../fishnet-building-blocks/components/network-behaviour-components/).
 
 Fish-Net will [generate serializers](../data-serialization/) for your types automatically, including arrays and lists. In rare cases Fish-Net may not be able to create a serializer for you. When this occurs you must create a [custom serializer](../data-serialization/custom-serializers-guides/).
 

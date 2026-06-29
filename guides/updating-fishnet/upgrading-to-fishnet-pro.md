@@ -61,7 +61,7 @@ Find out more perks of using this method [here](../../overview/readme/pro-projec
 
 When obtaining Fish-Networking Pro through Patreon you will have access to both Pro and the paid Projects. You **must** make a one-time payment of $10 for your initial downloads. Afterwards you're welcome to switch to $2/month for updates. You may leave the updates tier and join us again at any time.
 
-1. Head over to the [FirstGearGames Patreon](https://app.gitbook.com/u/YSfkj2zWPbbIfmfInyrs7Ysa2DV2) page.
+1. Head over to the [FirstGearGames Patreon](https://www.patreon.com/firstgeargames) page.
 2. Select a membership tier and then proceed to the payment.
 3. You can now go to the [Fish-Networking website](https://www.fish-networking.com/#downloads).
 4. Login with the **Patreon Login** option and then download the FishNet `.unitypackage` file.

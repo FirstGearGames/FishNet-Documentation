@@ -97,7 +97,7 @@ public static ItemBase ReadItembase(this Reader reader)
         return reader.Read<Weapon>();
     else if (clsType == 2)
         return reader.Read<Currency>();
-    else if (clsType == 1)
+    else if (clsType == 3)
         return reader.Read<Item>();
     // Unhandled, this would probably result in read errors.
     else
@@ -122,7 +122,7 @@ public static Item ReadItem(this Reader reader)
         return reader.Read<Weapon>();
     else if (clsType == 2)
         return reader.Read<Currency>();
-    else if (clsType == 1)
+    else if (clsType == 3)
         return reader.Read<Item>();
     // Unhandled, this would probably result in read errors.
     else

@@ -1,23 +1,12 @@
 ---
-layout:
-  width: default
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
+description: >-
+  Yak is an offline transport that runs your multiplayer code without opening
+  any sockets, seamlessly supporting offline/singleplayer play.
 ---
 
 # Yak (Pro Feature)
 
-{% hint style="danger" %}
+{% hint style="info" icon="rectangle-pro" %}
 Yak is part of Fish-Networking Pro features.
 {% endhint %}
 

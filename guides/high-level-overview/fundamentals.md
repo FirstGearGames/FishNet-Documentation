@@ -1,5 +1,5 @@
 ---
-description: To understand FishNet, it's helpful to grasp a few fundamental concepts
+description: To understand FishNet, it's helpful to grasp a few fundamental concepts.
 cover: ../../.gitbook/assets/foundamentals-cover.png
 coverY: 0
 ---

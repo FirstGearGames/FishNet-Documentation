@@ -1,14 +1,21 @@
+---
+description: >-
+  FishySteamworks is a reformed version of FizzySteamworks, delivering major
+  performance gains and full support for Heathen Engineering’s Steamworks SDK
+  Toolkit.
+---
+
 # FishySteamworks (Steam)
 
-## General
+## Description
 
-FishySteamworks is FizzySteamworks reformed. FishySteamworks has significant performance improvements and has been made to fully support [Foundation for Steamworks](https://heathen.group/kb/steam-welcome/) by _Heathen Engineering._
+FishySteamworks is FizzySteamworks reformed. FishySteamworks has significant performance improvements and has been made to fully support [Toolkit for Steamworks SDK](https://kb.heathen.group/toolkit-for-steamworks-sdk/steamworks) by _Heathen Engineering._
 
 ***
 
 ## Compatibility <a href="#server-and-host" id="server-and-host"></a>
 
-<table data-full-width="false"><thead><tr><th width="149">System</th><th width="198">Supported?</th></tr></thead><tbody><tr><td>Windows</td><td><mark style="color:green;">Fully Supported</mark></td></tr><tr><td>MacOS</td><td><mark style="color:green;">Fully Supported</mark></td></tr><tr><td>Linux</td><td><mark style="color:green;">Fully Supported</mark></td></tr><tr><td>Web</td><td><mark style="color:red;">Not Supported</mark></td></tr><tr><td>IOS</td><td><mark style="color:red;">Not Supported</mark></td></tr><tr><td>Android</td><td><mark style="color:red;">Not Supported</mark></td></tr><tr><td>Xbox</td><td><mark style="color:red;">Not Supported</mark></td></tr><tr><td>PlayStation</td><td><mark style="color:red;">Not Supported</mark></td></tr><tr><td>Nintendo</td><td><mark style="color:red;">Not Supported</mark></td></tr></tbody></table>
+<table data-full-width="false" data-search="false"><thead><tr><th width="149">System</th><th width="198">Supported?</th></tr></thead><tbody><tr><td>Windows</td><td><mark style="color:green;">Fully Supported</mark></td></tr><tr><td>MacOS</td><td><mark style="color:green;">Fully Supported</mark></td></tr><tr><td>Linux</td><td><mark style="color:green;">Fully Supported</mark></td></tr><tr><td>Web</td><td><mark style="color:red;">Not Supported</mark></td></tr><tr><td>IOS</td><td><mark style="color:red;">Not Supported</mark></td></tr><tr><td>Android</td><td><mark style="color:red;">Not Supported</mark></td></tr><tr><td>Xbox</td><td><mark style="color:red;">Not Supported</mark></td></tr><tr><td>PlayStation</td><td><mark style="color:red;">Not Supported</mark></td></tr><tr><td>Nintendo</td><td><mark style="color:red;">Not Supported</mark></td></tr></tbody></table>
 
 ***
 
@@ -16,10 +23,10 @@ FishySteamworks is FizzySteamworks reformed. FishySteamworks has significant per
 
 Github: [https://github.com/FirstGearGames/FishySteamworks/](https://github.com/FirstGearGames/FishySteamworks/)\
 \
-Import the package from Github above into your Unity FishNet project, and add the "FishySteamworks" Component to your [Transport Manager.](../components/managers/transportmanager/)
+Download and import the latest package from the [GitHub releases](https://github.com/FirstGearGames/FishySteamworks/releases) into your Unity FishNet project and add the **FishySteamworks** component to your [Transport Manager.](../components/managers/transportmanager/)
 
 {% hint style="warning" %}
-_FishySteamworks is dependent upon_ [Steamworks.NET](https://steamworks.github.io/). This tutorial may help with installing it. https://www.youtube.com/watch?v=hXZmUCkGZP8
+FishySteamworks is dependent upon [Steamworks.NET](https://steamworks.github.io/). An [installation article](https://steamworks.github.io/installation/#unity-instructions) for Unity is available on their webpage.
 {% endhint %}
 
 ***

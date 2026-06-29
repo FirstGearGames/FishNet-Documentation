@@ -1,10 +1,16 @@
+---
+description: >-
+  FishyFacepunch connects FishNet to Steam via the Facepunch.Steamworks API,
+  offering a simpler wrapper over Steamworks.Net for your transport layer.
+---
+
 # FishyFacepunch (Steam)
 
-## General
+## Description
 
 FishyFacepunch is a transport to interface with Steam using Facepunch.Steamworks API.\
 \
-You will need FishyFacepunch to be the transport layer, and you will need FacePunch.Steamworks, which is a subjectively simpler wrapper for the Steamworks.Net API.\
+You will need [FishyFacepunch](https://github.com/FirstGearGames/FishyFacepunch) to be the transport layer, and you will need [FacePunch.Steamworks](https://github.com/Facepunch/Facepunch.Steamworks), which is a subjectively simpler wrapper for the Steamworks.Net API.\
 \
 See the How to Install section to setup the Transport and FacePunch.Steamworks.
 
@@ -12,7 +18,7 @@ See the How to Install section to setup the Transport and FacePunch.Steamworks.
 
 ## Compatibility
 
-<table data-full-width="false"><thead><tr><th width="149">System</th><th width="198">Supported?</th></tr></thead><tbody><tr><td>Windows</td><td><mark style="color:green;">Fully Supported</mark></td></tr><tr><td>MacOS</td><td><mark style="color:green;">Fully Supported</mark></td></tr><tr><td>Linux</td><td><mark style="color:green;">Fully Supported</mark></td></tr><tr><td>Web</td><td><mark style="color:red;">Not Supported</mark></td></tr><tr><td>IOS</td><td><mark style="color:red;">Not Supported</mark></td></tr><tr><td>Android</td><td><mark style="color:red;">Not Supported</mark></td></tr><tr><td>Xbox</td><td><mark style="color:red;">Not Supported</mark></td></tr><tr><td>PlayStation</td><td><mark style="color:red;">Not Supported</mark></td></tr><tr><td>Nintendo</td><td><mark style="color:red;">Not Supported</mark></td></tr></tbody></table>
+<table data-full-width="false" data-search="false"><thead><tr><th width="149">System</th><th width="198">Supported?</th></tr></thead><tbody><tr><td>Windows</td><td><mark style="color:green;">Fully Supported</mark></td></tr><tr><td>MacOS</td><td><mark style="color:green;">Fully Supported</mark></td></tr><tr><td>Linux</td><td><mark style="color:green;">Fully Supported</mark></td></tr><tr><td>Web</td><td><mark style="color:red;">Not Supported</mark></td></tr><tr><td>IOS</td><td><mark style="color:red;">Not Supported</mark></td></tr><tr><td>Android</td><td><mark style="color:red;">Not Supported</mark></td></tr><tr><td>Xbox</td><td><mark style="color:red;">Not Supported</mark></td></tr><tr><td>PlayStation</td><td><mark style="color:red;">Not Supported</mark></td></tr><tr><td>Nintendo</td><td><mark style="color:red;">Not Supported</mark></td></tr></tbody></table>
 
 ***
 
@@ -35,10 +41,10 @@ Note that this transport requires Facepunch.Steamworks to be installed separatel
 #### Server
 
 * **Server Bind Address:** Used if you want to manually Bind a Steam ID to the server.
-* **Port:** The port you want the server to be binded to. Default is 27015
-* **Maximum Clients:** The maximum amount of clients you would like to connect to the server. Default is 16.
+* **Port:** The port you want the server to be bound to. Default is 27015
+* **Maximum Clients:** The maximum number of clients you would like to connect to the server. Default is 16.
 
 #### Client
 
-* **ClientAddress:** The Steam ID of the server you are connecting to. The Servers Steam ID if its standalone, or the Hosts Client Steam ID if the server is a host.
+* **Client Address:** The Steam ID of the server you are connecting to. The Servers Steam ID if its standalone, or the Hosts Client Steam ID if the server is a host.
 * **Timeout (Seconds):** The amount of time allowed to establish a connection, in seconds.

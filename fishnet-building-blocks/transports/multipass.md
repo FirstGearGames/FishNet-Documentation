@@ -1,18 +1,7 @@
 ---
-layout:
-  width: default
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
+description: >-
+  Multipass lets a single server run multiple transports simultaneously, uniting
+  players across platforms in the same game.
 ---
 
 # Multipass

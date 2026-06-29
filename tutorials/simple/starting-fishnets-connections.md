@@ -79,7 +79,7 @@ public class ConnectionManager : MonoBehaviour
 ```
 {% endcode %}
 
-The code show here is very simple, but one thing to observe is that the script does not inherit from [NetworkBehaviour](../../fishnet-building-blocks/components/network-behaviour-components.md). This is because this script will be active before the network is started and after it has stopped.
+The code show here is very simple, but one thing to observe is that the script does not inherit from [NetworkBehaviour](../../fishnet-building-blocks/components/network-behaviour-components/). This is because this script will be active before the network is started and after it has stopped.
 {% endstep %}
 
 {% step %}

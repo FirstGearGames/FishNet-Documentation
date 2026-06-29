@@ -2,24 +2,6 @@
 description: >-
   The default transport of FishNet, utilizing the power, efficiency and
   reliability of LiteNetLib.
-coverY: 0
-layout:
-  width: default
-  cover:
-    visible: false
-    size: full
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
 ---
 
 # Tugboat
@@ -32,7 +14,7 @@ Tugboat uses [LiteNetLib](https://github.com/RevenantX/LiteNetLib) to support re
 
 ## Compatibility <a href="#server-and-host" id="server-and-host"></a>
 
-<table data-full-width="false"><thead><tr><th width="149">System</th><th width="198">Supported?</th></tr></thead><tbody><tr><td>Windows</td><td><mark style="color:green;">Fully Supported</mark></td></tr><tr><td>MacOS</td><td><mark style="color:green;">Fully Supported</mark></td></tr><tr><td>Linux</td><td><mark style="color:green;">Fully Supported</mark></td></tr><tr><td>Web</td><td><mark style="color:red;">Not Supported</mark></td></tr><tr><td>IOS</td><td><mark style="color:green;">Fully Supported</mark></td></tr><tr><td>Android</td><td><mark style="color:green;">Fully Supported</mark></td></tr><tr><td>Xbox</td><td><mark style="color:green;">Fully Supported</mark></td></tr><tr><td>PlayStation</td><td><mark style="color:green;">Fully Supported</mark></td></tr><tr><td>Nintendo</td><td><mark style="color:green;">Fully Supported</mark></td></tr></tbody></table>
+<table data-full-width="false" data-search="false"><thead><tr><th width="149">System</th><th width="198">Supported?</th></tr></thead><tbody><tr><td>Windows</td><td><mark style="color:green;">Fully Supported</mark></td></tr><tr><td>MacOS</td><td><mark style="color:green;">Fully Supported</mark></td></tr><tr><td>Linux</td><td><mark style="color:green;">Fully Supported</mark></td></tr><tr><td>Web</td><td><mark style="color:red;">Not Supported</mark></td></tr><tr><td>IOS</td><td><mark style="color:green;">Fully Supported</mark></td></tr><tr><td>Android</td><td><mark style="color:green;">Fully Supported</mark></td></tr><tr><td>Xbox</td><td><mark style="color:green;">Fully Supported</mark></td></tr><tr><td>PlayStation</td><td><mark style="color:green;">Fully Supported</mark></td></tr><tr><td>Nintendo</td><td><mark style="color:green;">Fully Supported</mark></td></tr></tbody></table>
 
 ***
 

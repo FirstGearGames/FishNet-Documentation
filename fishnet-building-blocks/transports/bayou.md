@@ -1,44 +1,33 @@
 ---
-layout:
-  width: default
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
+description: >-
+  Bayou is a WebGL transport, evolved from SimpleWebTransport, built for
+  seamless browser communication.
 ---
 
 # Bayou
 
 ## Description
 
-Bayou is the transport you are looking for when you want communication on WebGL!\
+Bayou is the transport you are looking for when you want communication on WebGL.\
 \
-It is an updated and repurposed version of the "SimpleWebTransport" That was originally designed for Mirror Networking.
+It is an updated and repurposed version of the "SimpleWebTransport" that was originally designed for Mirror Networking.
 
 ***
 
 ## Compatibility
 
-<table data-full-width="false"><thead><tr><th width="149">System</th><th width="198">Supported?</th></tr></thead><tbody><tr><td>Windows</td><td><mark style="color:green;">Fully Supported</mark></td></tr><tr><td>MacOS</td><td><mark style="color:green;">Fully Supported</mark></td></tr><tr><td>Linux</td><td><mark style="color:green;">Fully Supported</mark></td></tr><tr><td>Web</td><td><mark style="color:green;">Fully Supported</mark></td></tr><tr><td>IOS</td><td><mark style="color:green;">Fully Supported</mark></td></tr><tr><td>Android</td><td><mark style="color:green;">Fully Supported</mark></td></tr><tr><td>Xbox</td><td><mark style="color:green;">Fully Supported</mark></td></tr><tr><td>PlayStation</td><td><mark style="color:red;">Not Supported</mark></td></tr><tr><td>Nintendo</td><td><mark style="color:red;">Not Supported</mark></td></tr></tbody></table>
+<table data-full-width="false" data-search="false"><thead><tr><th width="149">System</th><th width="198">Supported?</th></tr></thead><tbody><tr><td>Windows</td><td><mark style="color:green;">Fully Supported</mark></td></tr><tr><td>MacOS</td><td><mark style="color:green;">Fully Supported</mark></td></tr><tr><td>Linux</td><td><mark style="color:green;">Fully Supported</mark></td></tr><tr><td>Web</td><td><mark style="color:green;">Fully Supported</mark></td></tr><tr><td>IOS</td><td><mark style="color:green;">Fully Supported</mark></td></tr><tr><td>Android</td><td><mark style="color:green;">Fully Supported</mark></td></tr><tr><td>Xbox</td><td><mark style="color:green;">Fully Supported</mark></td></tr><tr><td>PlayStation</td><td><mark style="color:red;">Not Supported</mark></td></tr><tr><td>Nintendo</td><td><mark style="color:red;">Not Supported</mark></td></tr></tbody></table>
 
 ***
 
-## How to Install
+## How to install
 
-Bayou does not come with FishNet by default, you must download it from GitHub.\
+Bayou does not come with FishNet by default; you must download it from GitHub.\
 You can find the latest version at the link below!
 
-[https://github.com/FirstGearGames/Bayou/](https://github.com/FirstGearGames/Bayou/)\
+[https://github.com/FirstGearGames/Bayou/releases](https://github.com/FirstGearGames/Bayou/)\
 \
-Once Downloaded and Imported into Unity with FishNet. You should add the component to your Network manager, and Assign the "Transport" variable on the Transport Manager to Tugboat.
+Once downloaded and imported into Unity alongside FishNet. You should add the component to your network manager, and assign the **Transport** field on the **Transport Manager** to the Bayou component.
 
 ***
 

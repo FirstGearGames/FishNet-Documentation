@@ -1,6 +1,6 @@
 ---
 description: >-
-  This page discusses the varius networking models and architectures used in
+  This page discusses the various networking models and architectures used in
   games and what Fish-Networking uses.
 ---
 
@@ -70,7 +70,9 @@ Relay servers:
 * May be used as a fallback or for web-based games
 
 {% hint style="success" %}
-Fish-Networking supports multiple third-party relay services including [Unity's Relay](https://docs.unity.com/en-us/relay/get-started), [Edgegap's Distributed Relay](https://edgegap.com/platform/distributed-relay), [Photon Realtime](https://www.photonengine.com/Realtime), [Epic Online Services' Relay Service](https://dev.epicgames.com/docs/epic-online-services/eos-overview#peer-to-peer-p2p-connections), and [Steam Datagram Relay](https://partner.steamgames.com/doc/features/multiplayer/steamdatagramrelay).
+Fish-Networking supports multiple third-party relay services including [Unity's Relay](https://unity.com/products/relay), [Edgegap's Distributed Relay](https://edgegap.com/platform/distributed-relay), [Photon Realtime](https://www.photonengine.com/Realtime), [Epic Online Services' Relay Service](https://dev.epicgames.com/docs/epic-online-services/eos-overview#peer-to-peer-p2p-connections), and [Steam Datagram Relay](https://partner.steamgames.com/doc/features/multiplayer/steamdatagramrelay).
+
+There is also the free self-hosted [BlitzRelay](https://github.com/abdelfattahradwan/blitz-relay) that you can use.
 {% endhint %}
 
 ***
@@ -80,5 +82,5 @@ Fish-Networking supports multiple third-party relay services including [Unity's 
 When using a listen server, the host leaving the game would cause all players to leave the game; **Host migration** is a feature for maintaining game sessions in the event the current host disconnects or experiences network issues. It enables a new host to be elected from the remaining connected players, minimizing disruption and ensuring the game session can continue seamlessly.
 
 {% hint style="warning" %}
-Fish-Networking doesn't yet have built-in host migration, but it is a feature that may be added in the future.
+Fish-Networking doesn't yet have built-in host migration, but it is available throught the community [FishNet EOS Native](../../fishnet-building-blocks/transports/fishnet-eos-native.md) transport.
 {% endhint %}

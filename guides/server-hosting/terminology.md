@@ -34,7 +34,8 @@ A relay is a client-authoritative service, where the client acts as the server.
 
 **Benefits of a relay:**
 
-* **Cost-effective for Casual Games: Relays are Ide**al for casual or small-scale games, especially when a free relay service is available. However, using a paid relay service can quickly become impractical, as pay-per-use dedicated servers are often more affordable, while also gaining other advantages.
+* **Cost-effective for Casual Games**: Relays are Ideal for casual or small-scale games, especially when a free relay service is available. However, using a paid relay service can quickly become impractical, as pay-per-use dedicated servers are often more affordable, while also gaining other advantages.
+* **Self-hosting**: You can self-host a relay server which is far less demanding, and thus a lot cheaper, than hosting a full dedicated game server that runs all the game logic.
 
 **Drawbacks of a relay:**
 

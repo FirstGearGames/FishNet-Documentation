@@ -46,6 +46,10 @@
   * [Testing with Multiple Editors](tutorials/simple/testing-with-multiple-editors.md)
   * [Simulating Bad Network Connections](tutorials/simple/simulating-bad-network-connections.md)
   * [Building a Dedicated Server](tutorials/simple/building-a-dedicated-server.md)
+* [Unity Samples](tutorials/unity-samples/README.md)
+  * [Starter Assets - Third Person](tutorials/unity-samples/starter-assets-third-person/README.md)
+    * [Client Authoritative](tutorials/unity-samples/starter-assets-third-person/client-authoritative.md)
+    * [Server Authoritative](tutorials/unity-samples/starter-assets-third-person/server-authoritative.md)
 * [Complete Games](tutorials/complete-games.md)
 
 ## Guides
@@ -134,6 +138,7 @@
     * [Projectiles](guides/features/lag-compensation/projectiles.md)
   * [Code Stripping (Pro Feature)](guides/features/code-stripping.md)
   * [Level of Detail (Pro Feature)](guides/features/level-of-detail.md)
+* [Demos](guides/demos.md)
 * [Updating FishNet](guides/updating-fishnet/README.md)
   * [Changes in API](guides/updating-fishnet/upgrading-api.md)
   * [Upgrading to FishNet Pro](guides/updating-fishnet/upgrading-to-fishnet-pro.md)

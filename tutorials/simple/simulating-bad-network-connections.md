@@ -69,7 +69,7 @@ To use this, add the [TransportManager](../../fishnet-building-blocks/components
 For more options it's recommended to use an external tool, such as one of the ones listed below:
 
 * **Windows**: [Clumsy](https://jagt.github.io/clumsy/)
-* **macOS/iOS**: [Network Link Conditioner](https://app.gitbook.com/u/YSfkj2zWPbbIfmfInyrs7Ysa2DV2) (in Apple’s Additional Tools for Xcode)
+* **macOS/iOS**: [Network Link Conditioner](https://nshipster.com/network-link-conditioner/) (in Apple’s Additional Tools for Xcode)
 * **macOS (advanced)**: [dummynet](https://manpagez.com/man/8/dnctl/), dnctl and pfctl (built into macOS)
 * **Linux:** [netem](https://wiki.linuxfoundation.org/networking/netem)
 

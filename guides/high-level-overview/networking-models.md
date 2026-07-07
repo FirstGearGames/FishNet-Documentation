@@ -82,5 +82,5 @@ There is also the free self-hosted [BlitzRelay](https://github.com/abdelfattahra
 When using a listen server, the host leaving the game would cause all players to leave the game; **Host migration** is a feature for maintaining game sessions in the event the current host disconnects or experiences network issues. It enables a new host to be elected from the remaining connected players, minimizing disruption and ensuring the game session can continue seamlessly.
 
 {% hint style="warning" %}
-Fish-Networking doesn't yet have built-in host migration, but it is available throught the community [FishNet EOS Native](../../fishnet-building-blocks/transports/fishnet-eos-native.md) transport.
+Fish-Networking doesn't have built-in host migration, but it is possible (though tricky) to create it yourself.
 {% endhint %}

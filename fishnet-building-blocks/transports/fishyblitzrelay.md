@@ -1,14 +1,14 @@
 ---
 description: >-
-  FishyBlitzRelay is a transport for FishNetworking for a free, self-hostable
+  Blitz Relay for Fish-Networking is a transport for a free, self-hostable
   relay.
 ---
 
-# FishyBlitzRelay
+# Blitz Relay for FishNet
 
 ## Description
 
-[FishyBlitzRelay](https://github.com/abdelfattahradwan/fishyblitzrelay) is a relay transport for FishNetworking that routes all client traffic through a free self-hostable [Blitz Relay](https://github.com/abdelfattahradwan/blitz-relay) server instance, eliminating the need for clients to have publicly reachable IP addresses or open ports.
+[Blitz Relay for FishNet](https://github.com/abdelfattahradwan/blitz-relay-for-fishnet) is a relay transport that routes all client traffic through a free self-hostable [Blitz Relay](https://github.com/abdelfattahradwan/blitz-relay) server instance, eliminating the need for clients to have publicly reachable IP addresses or open ports.
 
 This makes it ideal for deployments where NAT traversal or firewall restrictions prevent direct peer‑to‑peer connections. Internally, the transport uses a modified build of **LiteNetLib** for its UDP connections to the relay, ensuring efficient and reliable communication.
 

@@ -224,7 +224,7 @@
   * [Bayou](fishnet-building-blocks/transports/bayou.md)
   * [FishyWebRTC](fishnet-building-blocks/transports/fishywebrtc.md)
   * [Canoe WebRTC](fishnet-building-blocks/transports/canoe-webrtc.md)
-  * [FishyBlitzRelay](fishnet-building-blocks/transports/fishyblitzrelay.md)
+  * [Blitz Relay for FishNet](fishnet-building-blocks/transports/fishyblitzrelay.md)
   * [FishyUnityTransport](fishnet-building-blocks/transports/fishyunitytransport.md)
   * [FishySteamworks (Steam)](fishnet-building-blocks/transports/fishysteamworks.md)
   * [FishyEOS (Epic Online Services)](fishnet-building-blocks/transports/fishyeos-epic-online-services.md)

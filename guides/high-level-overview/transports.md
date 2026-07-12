@@ -14,7 +14,7 @@ There are many transports available, some are maintained by the Fish-Networking 
 * [Bayou](../../fishnet-building-blocks/transports/bayou.md) (WebGL)
 * [Yak](../../fishnet-building-blocks/transports/yak-pro-feature.md) (for offline gameplay)
 * [Multipass](../../fishnet-building-blocks/transports/multipass.md) (multi-transport support)
-* [FishyBlitzRelay](../../fishnet-building-blocks/transports/fishyblitzrelay.md) (self-hosted relay)
+* [Blitz Relay For FishNet](../../fishnet-building-blocks/transports/fishyblitzrelay.md) (self-hosted relay)
 * [FishySteamworks](../../fishnet-building-blocks/transports/fishysteamworks.md) (Steamworks.NET)
 * [FishyFacepunch](../../fishnet-building-blocks/transports/fishyfacepunch-steam.md) (Facepunch for Steam)
 * [FishyEOS](../../fishnet-building-blocks/transports/fishyeos-epic-online-services.md) (Epic Online Services)

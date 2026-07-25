@@ -173,7 +173,7 @@ private void RunInputs(ReplicateData data, ReplicateState state = ReplicateState
     // Be sure to always apply and set velocities using PredictionRigidbody
     // and never on the rigidbody itself; this includes if also accessing from
     // another script.
-    Vector3 forces = new Vector3(data.Horizontal, 0f, data.Vertical) * _moveRate;
+    Vector3 forces = new Vector3(data.Horizontal, 0f, data.Vertical) * _moveForce;
     PredictionRigidbody.AddForce(forces);
 
     if (data.Jump)

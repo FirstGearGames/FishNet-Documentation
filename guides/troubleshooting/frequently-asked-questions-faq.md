@@ -153,6 +153,14 @@ However, even if the interval is met, SyncTypes always synchronize after remote 
 
 </details>
 
+<details>
+
+<summary>Why is the previous value in my SyncType's OnChange callback not correct?</summary>
+
+This is a limitation on the host client, but it can be worked around quite easily. More details here: [#host-client-limitations](../features/network-communication/synchronizing/#host-client-limitations "mention")
+
+</details>
+
 ## Remote Procedure Calls (RPCs)
 
 <details>
@@ -166,6 +174,14 @@ The [ServerRpc guide ](../features/network-communication/remote-procedure-calls.
 </details>
 
 ## Errors and warnings
+
+<details>
+
+<summary>Why do I get this error: "Library/ScriptAssemblies/FishNet.Codegen.Cecil.dll' will not be loaded due to errors"?</summary>
+
+This happens if your API compatibility levels are on the wrong option. Simply go into your player settings and change them.
+
+</details>
 
 <details>
 
@@ -211,7 +227,7 @@ It's also possible you have a method decorated with the '\[Server]' attribute, s
 
 <details>
 
-<summary>Why do I get this error? "SceneId of 4013929391 not found in SceneObjects."?</summary>
+<summary>Why do I get an error like this? "SceneId of 4013929391 not found in SceneObjects."?</summary>
 
 You will see this error if the server thinks your client is in scene, when the client does not have the scene loaded. Using a [SceneCondition](../../fishnet-building-blocks/scriptableobjects/observerconditions/scenecondition.md) on the [ObserverManager ](../../fishnet-building-blocks/components/managers/observermanager/)will typically resolve this problem. You can simply add the ObserverManager component to your network manager and give it the scene condition in its [Default Conditions](../../fishnet-building-blocks/components/managers/observermanager/#default-conditions) list.
 

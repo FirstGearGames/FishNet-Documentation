@@ -28,13 +28,11 @@ When converting a project from Mirror Networking, it can be helpful to use these
 
 #### Replace Components
 
-This tool helps you replace common Mirror components with what FishNet may use instead.&#x20;
+This tool helps you replace common Mirror components with what FishNet may use instead.
 
 #### Remove Defines
 
 This tool removes the many scripting defines that Mirror includes in your Unity project.
-
-
 
 ### Refresh Default Prefabs
 
@@ -42,7 +40,7 @@ This option will cause FishNet's [Default Prefab Objects](scriptableobjects/spaw
 
 ### Reserialize NetworkObjects
 
-This tool allows you to reserialize prefabs and scenes. Most often you will use this if you get an error message by FishNet telling you to do so. It can also help you if you are running into errors reporting missing sceneids.&#x20;
+This tool allows you to reserialize prefabs and scenes. Most often you will use this if you get an error message by FishNet telling you to do so. It can also help you if you are running into errors reporting missing sceneids.
 
 {% hint style="info" %}
 If you run it on the open scenes, be sure to save them after it runs.
@@ -76,7 +74,14 @@ The **Full Rebuild** option will tell FishNet to search all prefabs instead of j
 
 The **Default Prefab Objects Path** option allows you to change the default path of the asset in your Unity project.
 
-And finally you can choose which folders to exclude or include when it searches for network prefabs.
+Finally, you can set the search scope to either **Entire Project** or **Specific Folders**:
+
+* **Entire Project**: Searches all prefabs, with the option to exclude certain folders.
+* **Specific Folders**: Lets you choose exactly which folders to search.
+
+{% hint style="info" %}
+To include sub-folders, append an asterisk (`*`) to the path.
+{% endhint %}
 
 <div align="left"><figure><img src="../.gitbook/assets/prefab-objects-generator.png" alt=""><figcaption></figcaption></figure></div>
 

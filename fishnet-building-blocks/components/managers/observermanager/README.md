@@ -20,7 +20,7 @@ Check out its API page for more specific methods and events [here](https://fish-
 
 ### :gear: **Update Host Visibility**
 
-> This will hide renderers on networked objects which are hidden to host client. When true, all networked objects will be visible to the host client even if these objects would normally be despawned for the client.
+> This will hide renderers on networked objects which are hidden to host client. When false, all networked objects will be visible to the host client even if these objects would normally be despawned for the client.
 
 ### :gear: **Maximum Timed Observers Duration**
 

@@ -66,7 +66,7 @@ Alternatively, you can launch a second Unity Editor instance by using [Unity's M
 <figure><img src="../../.gitbook/assets/mppm-connected-to-editor.png" alt="Multiplayer Play Mode Connected to Editor"><figcaption><p>Multiplayer Play Mode connected to editor</p></figcaption></figure>
 
 {% hint style="info" %}
-Don't worry if you encounter an error in a second game window stating: **"Server failed to start. This usually occurs when the specified port is unavailable, be it closed or already in use."** This occurs because multiple game instances are attempting to start as a server on the same machine using the same port. Only the first instance will successfully start as a server and the rest will instead start as clients only, thus this error is safe to ignore for local testing.
+If a second game window shows _"Server failed to start"_ it just means multiple instances tried to use the same port. Only the first becomes the server; the rest run as clients, so the error is safe to ignore during local testing. If players don’t spawn correctly, check that **Error Pause** is disabled in the Unity console.
 {% endhint %}
 {% endstep %}
 {% endstepper %}

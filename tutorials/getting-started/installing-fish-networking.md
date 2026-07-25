@@ -67,17 +67,23 @@ Ensure you have the [Git client](https://git-scm.com/) (minimum version 2.14.0) 
 
 Installing FishNet Pro can be done in the same way as the first steps listed above.
 
-If you do need more details though, you can find complete steps for purchasing and installing FishNet Pro at these pages:&#x20;
+If you do need more details though, you can find complete steps for purchasing and installing FishNet Pro at these pages:
 
 <table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>FishNet Pro, Projects, and Support</strong></td><td><mark style="color:blue;">Details about what FishNet Pro is, the available paid Projects, and Professional Support.</mark></td><td><a href="../../overview/readme/pro-projects-and-support.md">pro-projects-and-support.md</a></td></tr><tr><td><strong>Installing FishNet Pro</strong></td><td><mark style="color:blue;">Instructions for how to purchase and install FishNet Pro.</mark></td><td><a href="../../guides/updating-fishnet/upgrading-to-fishnet-pro.md">upgrading-to-fishnet-pro.md</a></td></tr></tbody></table>
 
 ***
 
-### Fix for errors after importing
+### How to fix potential errors after importing?
 
-If you receive the following errors after importing FishNet, then make sure you don't have Netcode for GameObjects inside your project. The files it uses will clash with FishNet's files and you will need to remove it first and then import FishNet again.
+After importing FishNet it is possible you will encounter errors, this can happen if you are using an unsupported version of Unity, such as one that is far too old or yet too new. [unity-compatibility.md](../../overview/readme/features/unity-compatibility.md "mention")
+
+It can also happen if you have a conflicting asset, such as Netcode for GameObjects, or if your API compatibility level is incorrect.
+
+For example, if you receive the following errors after importing FishNet, then make sure you don't have Netcode for GameObjects inside your project. The files it uses will clash with FishNet's files and you will need to remove it first and then import FishNet again.
 
 ```
 Assets\FishNet\CodeGenerating\ILCore\ILCoreHelper.cs(18,13): error CS0246: The type or namespace name 'PostProcessorAssemblyResolver' could not be found (are you missing a using directive or an assembly reference?)
 Assets\FishNet\CodeGenerating\ILCore\ILCoreHelper.cs(24,50): error CS0246: The type or namespace name 'PostProcessorReflectionImporterProvider' could not be found (are you missing a using directive or an assembly reference?)
 ```
+
+If it's not one of these problems, or you are unsure what exactly it is, feel free to reach out to us in our official Discord server: [https://discord.com/invite/Ta9HgDh4Hj](https://discord.com/invite/Ta9HgDh4Hj)

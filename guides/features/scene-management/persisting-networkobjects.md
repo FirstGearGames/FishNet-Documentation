@@ -12,8 +12,10 @@ The options available to users to keep [**NetworkObjects**](../networked-gameobj
 
 ## Spawned NetworkObjects
 
-[**Spawned NetworkObjects**](../networked-gameobjects-and-scripts/networkobjects/#spawnednetworkobject) that do not fall into the other categories below can persist between scenes by moving them while loading into the next scene.\
-\
+[**Spawned NetworkObjects**](../networked-gameobjects-and-scripts/networkobjects/#spawnednetworkobject) that do not fall into the other categories below can persist between scenes by moving them while loading into the next scene or moving them manually on the server and then updating the observers.
+
+#### Moving objects when loading the scene
+
 The [**SceneLoadData**](scene-data/sceneloaddata.md) that is passed into the Load Method of the SceneManager has an array that you can populate with all of the Spawned NetworkObjects you want to send to the new loaded scene.
 
 The SceneManager will handle the objects correctly for you and also flag a Debug if you try to send a GameObject that is not allowed.
@@ -35,6 +37,21 @@ sld.MovedNetworkObjects = objectsToMove;
 
 // FishNet will handle the rest after loading!
 SceneManager.LoadGlobalScenes(sld);
+```
+
+#### Moving objects manually on the server
+
+You can also manually move such an object by using Unity's `SceneManager.MoveGameObjectToScene` method and then rebuilding FishNet's observers `ServerManager.Objects.RebuildObservers`.&#x20;
+
+Both of these should only be done on the server.
+
+#### Example
+
+```csharp
+// Use Unity's SceneManager to move the specific object to a specifc scene.
+UnityEngine.SceneManagement.SceneManager.MoveGameObjectToScene(theGameObject, theScene);
+// Then you can tell FishNet to rebuild the observers.
+InstanceFinder.ServerManager.Objects.RebuildObservers();
 ```
 
 ## Scene NetworkObjects

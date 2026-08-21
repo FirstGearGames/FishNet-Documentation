@@ -51,7 +51,7 @@ Information on how to "unload" scenes and the options available to the user whil
 
 ### [Persisting NetworkObjects](persisting-networkobjects.md)
 
-"Persisting NetworkObjects" is the ability to keep a network object's state when loading and unloading scenes.
+"Persisting NetworkObjects" is the ability to keep a network object's state when loading and unloading scenes. As well as moving an object between scenes.
 
 ### [Custom Scene Processors](custom-scene-processors/)
 

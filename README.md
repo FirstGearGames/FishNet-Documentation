@@ -25,7 +25,7 @@ When breaks do occur we will do our best to keep the changes simple. We also hav
 
 Fish-Networking is the only solution to offer free LTS. We will be using a unique but effective approach at creating LTS releases. Rather than the standard expectations of being locked into a version for long-term support, FishNet is providing what we refer to as 'Release' and 'Development' switches. Any version of Fish-Networking which ends in R supports switching between Release and Development features, for example: 3.10.7R.
 
-With Fish-Networking Long-Term support does not mean being stuck on older versions! Whenever a change or new feature becomes available public you may disabled it at anytime. Disabling an upcoming change will suspend the changes and allow FishNet to operate on the proven stable version of the same feature. This allows you to stay on the latest releases to get the latest tech and bug fixes without worrying about each update breaking your project.
+With Fish-Networking Long-Term support does not mean being stuck on older versions! Whenever a change or new feature becomes available publicly you may disable it at anytime. Disabling an upcoming change will suspend the changes and allow FishNet to operate on the proven stable version of the same feature. This allows you to stay on the latest releases to get the latest tech and bug fixes without worrying about each update breaking your project.
 
 {% hint style="success" %}
 To toggle between beta features simply use the Fish-Networking menu in engine, choose Beta, and turn on or off each feature to your liking.

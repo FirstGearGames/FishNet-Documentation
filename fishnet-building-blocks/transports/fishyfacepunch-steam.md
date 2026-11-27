@@ -14,6 +14,10 @@ You will need [FishyFacepunch](https://github.com/FirstGearGames/FishyFacepunch)
 \
 See the How to Install section to setup the Transport and FacePunch.Steamworks.
 
+{% hint style="info" %}
+The newer [fishpunch-steam.md](fishpunch-steam.md "mention")transport should generally be used instead of this one.
+{% endhint %}
+
 ***
 
 ## Compatibility
